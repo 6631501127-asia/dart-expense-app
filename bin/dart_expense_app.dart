@@ -1,5 +1,12 @@
-import 'package:dart_expense_app/dart_expense_app.dart' as dart_expense_app;
+void showAll() {
+  print('1. Lunch: 50 Baht');
+  print('2. Coffee: 70 Baht');
+}
+void totalPaid() {
+  print('Total = 120 Baht');
+}
+void main() {
+  showAll();
 
-void main(List<String> arguments) {
-  print('Hello world: ${dart_expense_app.calculate()}!');
+  totalPaid();
 }
